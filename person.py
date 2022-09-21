@@ -18,6 +18,7 @@ class Student(Person):
     def __str__(self):
         print(f'Name:{self._name}  Age:{self._age} Major:{self.major}')
 
+
 #object Person
 p = Person("Nopphamat",22)
 p.__str__()
